@@ -15,6 +15,7 @@
 #include "../common/cdf.h"
 #include "../common/conn.h"
 
+#define PRIORITY 1
 bool verbose_mode = false;  /* by default, we don't give more detailed output */
 
 char config_file_name[80] = {0};    /* configuration file */
@@ -650,7 +651,7 @@ void set_req_variables()
             req_size[i] = gen_random_cdf(req_size_dist);    /* flow size */
         req_server_id[i] = rand() % num_server; /* server ID */
         server_req_count[req_server_id[i]]++;   /* per-server request number */
-		if (is_fixed_interval)
+		if (PRIORITY)
 			req_dscp[i] = gen_dscp_weight(req_size[i], num_dscp);
 		else
 			req_dscp[i] = gen_value_weight(dscp_value, dscp_prob, num_dscp, dscp_prob_total);    /* flow DSCP */

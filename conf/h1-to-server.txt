@@ -3,6 +3,6 @@ req_size_dist conf/DCTCP_CDF.txt
 rate 0Mbps 10
 rate 500Mbps 30
 rate 800Mbps 60
-dscp 0 25
-dscp 1 35
-dscp 2 40
+dscp 4 40
+dscp 5 40
+dscp 6 20
