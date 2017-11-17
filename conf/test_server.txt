@@ -1,0 +1,3 @@
+server 10.103.73.43 5001
+req_size_dist conf/background_flow_CDF.txt
+rate 0Mbps 100
