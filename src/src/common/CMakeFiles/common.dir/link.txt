@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcommon.a  CMakeFiles/common.dir/cdf.c.o CMakeFiles/common.dir/common.c.o CMakeFiles/common.dir/conn.c.o
+/usr/bin/ranlib ../../../lib/libcommon.a

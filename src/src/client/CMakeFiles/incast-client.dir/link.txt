@@ -1,0 +1,1 @@
+gcc  -Wall    CMakeFiles/incast-client.dir/incast-client.c.o  -o ../../../bin/incast-client  -L/home/yjj/test/TrafficGenerator/lib ../../../lib/libcommon.a -lm -lpthread -lrt -Wl,-rpath,/home/yjj/test/TrafficGenerator/lib 

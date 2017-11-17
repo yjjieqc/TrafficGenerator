@@ -1,0 +1,11 @@
+server 192.168.2.4 8899
+req_size_dist conf/DCTCP_CDF.txt
+rate 0Mbps 10
+rate 500Mbps 30
+rate 800Mbps 60
+dscp 0 10
+dscp 1 10
+dscp 2 15
+dscp 3 15
+dscp 4 20
+dscp 5 30

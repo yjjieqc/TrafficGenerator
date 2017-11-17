@@ -1,3 +1,0 @@
-server 192.168.2.111 5001
-req_size_dist conf/short_flow_CDF.txt
-rate 0Mbps 100
